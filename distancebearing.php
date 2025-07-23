@@ -1,4 +1,9 @@
 <?php
+/*
+
+2025 Jari Perkiömäki OH6BG
+
+*/
 function haversineDistance($lat1, $lon1, $lat2, $lon2)
 {
     // Radius of the Earth in kilometers
