@@ -1,4 +1,9 @@
 <?php
+/*
+
+2025 Jari Perkiömäki OH6BG
+
+*/
 function latlon2loc($position, $precision = 6)
 {
   /*
