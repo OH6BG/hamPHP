@@ -114,11 +114,11 @@ If omitted, the default latitude and longitude are 0.0, 0.0.
 * **`date` (YYYY-MM-DD):**  Center date for the 5-day range. If omitted, the script uses the current date as the center. *Example:* `date=2024-03-20`
 * **`tz`:** Timezone for the output.  Options:
     * **`utc` (default):** Output times in Universal Coordinated Time (UTC).
-    * **`local`:** Output times in the timezone closest to the specified coordinates (with a preference for Finnish timezones if available; change the preference in the code).  *Example:* `tz=local`
+    * **`local`:** Output times in the timezone closest to the specified coordinates (with a preference for Finnish timezones if available; change the preference in the code). Note that the code is not accurate enough at all as it tries to determine the time zone by the given coordinates. *Example:* `tz=local`
 * **`format`:** Output format. Options:
     * **`json` (default):** Output as JSON.
     * **`csv`:** Output as CSV. *Example:* `format=csv`
-* **`columns`:** Comma-separated list of sun times to include in the output.  Available columns are in a chronological order: `nightend`, `nauticaldawn`, `dawn`, `sunrise`, `sunriseend`, `goldenhourend`, `solarnoon`, `goldenhour`, `sunsetstart`, `sunset`, `dusk`, `nauticaldusk`, `night`, `nadir`.  If omitted, all columns are included. *Example:* `columns=sunrise,sunset,solarnoon`
+* **`columns`:** Comma-separated list of sun times to include in the output.  Available columns are in a chronological order as follows: `nightend`, `nauticaldawn`, `dawn`, `sunrise`, `sunriseend`, `goldenhourend`, `solarnoon`, `goldenhour`, `sunsetstart`, `sunset`, `dusk`, `nauticaldusk`, `night`, `nadir`.  If omitted, all columns are included. *Example:* `columns=sunrise,sunset,solarnoon`
 
 
 **Example Usage Scenarios:**
