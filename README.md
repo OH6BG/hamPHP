@@ -24,7 +24,7 @@ The Haversine formula calculates the shortest distance between two points on a s
 
 ## 2. vincentyDistance($lat1, $lon1, $lat2, $lon2)
 
-Just like the Haversine formula, Vincenty's formulae calculate the distance between two points on the Earth's surface. IT accounts for the fact that the Earth is not a perfect sphere, but an ellipsoid (slightly flattened at the poles). Vincenty's formulae are highly accurate, even for short distances and near antipodal points (opposite sides of the Earth). They are considered the gold standard for geodetic distance calculations.
+Just like the Haversine formula, Vincenty's formulae calculate the shortest path distance between two points on the Earth's surface. It accounts for the fact that the Earth is not a perfect sphere, but an ellipsoid (slightly flattened at the poles). Vincenty's formulae are highly accurate, even for short distances and near antipodal points (opposite sides of the Earth). They are considered the gold standard for geodetic distance calculations.
 
 Unlike the Haversine formula, which is a direct calculation, Vincenty's uses an iterative approach. It starts with an initial guess for the distance and refines it repeatedly until the result converges to a very precise value. Think of it like zooming in on a map – each iteration gets you closer to the true distance.
 
