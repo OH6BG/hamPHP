@@ -114,7 +114,7 @@ If omitted, the default latitude and longitude are 0.0, 0.0.
 * **`date` (YYYY-MM-DD):**  Center date for the 5-day range. If omitted, the script uses the current date as the center. *Example:* `date=2024-03-20`
 * **`tz`:** Timezone for the output.  Options:
     * **`utc` (default):** Output times in Universal Coordinated Time (UTC).
-    * **`local`:** Output times in the timezone closest to the specified coordinates (with a preference for Finnish timezones if available; change the preference in the code). Note: Consider this highly experimental! *Example:* `tz=local`
+    * **`local`:** Output times in the timezone closest to the specified coordinates (with a preference for Finnish timezones if available; **change this to your preference in the code**). Note: Consider this highly experimental! *Example:* `tz=local`
 * **`format`:** Output format. Options:
     * **`json` (default):** Output as JSON.
     * **`csv`:** Output as CSV. *Example:* `format=csv`
